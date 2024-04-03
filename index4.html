@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .parent{
+            background-color: aqua;
+            display: flex;
+        }
+        .child{
+            background-color: blanchedalmond;
+            border: 1px solid red;
+            flex-basis: 40px;
+        }
+        .search-box{
+            flex-grow: 3;
+            flex-shrink: 1;
+        }
+        .cart{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">logo</div>
+        <div class="child">location</div>
+        <div class="child search-box">search bar</div>
+        <div class="child cart">cart</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>
+</body>
+</html>
